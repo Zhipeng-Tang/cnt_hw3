@@ -76,6 +76,7 @@ for i in range(1, len(indexs)):
                 print(euclid(a, N))
                 print([p[indexs[j]] for j in range(i)] + [p[indexs[i]]])
                 print([Q[indexs[j]] for j in range(i)] + [Q[indexs[i]]])
+                print(comb)
                 completed = True
                 break
     if completed:
